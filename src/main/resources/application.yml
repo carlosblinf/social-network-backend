@@ -2,12 +2,10 @@ spring:
   application:
     name: social-network
   datasource:
-    platform: postgres
     driver-class-name: org.postgresql.Driver
     url: "jdbc:postgresql://localhost:5432/socialnetwork"
-    username: user
-    password: pass
-    initialization-mode: always
+    username: baeldung
+    password: baeldung
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: false
